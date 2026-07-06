@@ -35,7 +35,7 @@ Zero setup required. No Git, command line, hosting provider, or infrastructure s
 No local dependencies are needed - the AppDeploy MCP server is remote.
 
 1. Confirm the `appdeploy` MCP server from this power is connected and enabled.
-2. The first tool call triggers browser authentication (sign in with Google, Apple, or continue as Guest).
+2. The first tool call triggers browser authentication (sign in with Google, Apple, X, or continue as Guest).
 3. Validate the connection with the read-only `get_apps` tool - it lists the user's deployed apps and confirms auth works.
 4. If the connection or authentication fails, see https://appdeploy.ai/mcp-docs for troubleshooting.
 

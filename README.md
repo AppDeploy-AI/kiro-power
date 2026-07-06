@@ -23,7 +23,7 @@ Zero setup required. No Git, command line, hosting provider, or infrastructure s
 1. In Kiro, open the **Powers** panel.
 2. Choose **Add Custom Power** -> **Import power from GitHub**.
 3. Paste this repository's URL and install.
-4. On first use, a browser window opens to authenticate (Google, Apple, or Guest).
+4. On first use, a browser window opens to authenticate (Google, Apple, X, or Guest).
 
 Full setup guide: https://appdeploy.ai/install
 
