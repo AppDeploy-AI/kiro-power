@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "appdeploy": {
+      "url": "https://api-v2.appdeploy.ai/mcp"
+    }
+  }
+}
