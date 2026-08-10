@@ -23,15 +23,18 @@ Zero setup required. No Git, command line, hosting provider, or infrastructure s
 1. In Kiro, open the **Powers** panel.
 2. Choose **Add Custom Power** -> **Import power from GitHub**.
 3. Paste this repository's URL and install.
-4. On first use, a browser window opens to authenticate (Google, Apple, X, or Guest).
+4. After installing, open Kiro's **MCP Servers** panel and click **Connect** on the AppDeploy server - a browser window opens to authenticate (Google, Apple, X, or Guest).
 
 Full setup guide: https://appdeploy.ai/install
 
 ## What's inside
 
-- `POWER.md` - power manifest (activation keywords, onboarding, steering map)
+This power is packaged in the open [Agent Plugins](https://agent-plugins.org) 1.0.0 format.
+
+- `plugin.json` - Agent Plugins manifest
 - `mcp.json` - remote MCP server config for `https://api-v2.appdeploy.ai/mcp`
-- `steering/` - workflow guidance loaded by Kiro on demand
+- `dev.kiro/steering/` - workflow guidance loaded by Kiro on demand
+- `POWER.md` - legacy Kiro power manifest, kept for compatibility
 
 ## Support & Legal
 
