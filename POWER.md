@@ -34,8 +34,8 @@ Zero setup required. No Git, command line, hosting provider, or infrastructure s
 
 No local dependencies are needed - the AppDeploy MCP server is remote.
 
-1. Confirm the `appdeploy` MCP server from this power is connected and enabled.
-2. The first tool call triggers browser authentication (sign in with Google, Apple, X, or continue as Guest).
+1. Confirm the `appdeploy` MCP server from this power is connected: open Kiro's **MCP Servers** panel, find this power's server, and click **Connect** if it is not connected yet.
+2. Connecting triggers browser authentication (sign in with Google, Apple, X, or continue as Guest).
 3. Validate the connection with the read-only `get_apps` tool - it lists the user's deployed apps and confirms auth works.
 4. If the connection or authentication fails, see https://appdeploy.ai/mcp-docs for troubleshooting.
 
@@ -43,13 +43,13 @@ No local dependencies are needed - the AppDeploy MCP server is remote.
 
 Load the steering file that matches the task:
 
-- Build and deploy an app -> steering/deploy-workflow.md
-- SDK capabilities (database, storage, auth, AI, realtime, cron) -> steering/sdk-features.md
-- Manage deployed apps (status, versions, source, QA, deletion) -> steering/app-management.md
-- Backend secrets and custom domains -> steering/secrets-and-domains.md
-- Full tool reference -> steering/tools-reference.md
+- Build and deploy an app -> dev.kiro/steering/deploy-workflow.md
+- SDK capabilities (database, storage, auth, AI, realtime, cron) -> dev.kiro/steering/sdk-features.md
+- Manage deployed apps (status, versions, source, QA, deletion) -> dev.kiro/steering/app-management.md
+- Backend secrets and custom domains -> dev.kiro/steering/secrets-and-domains.md
+- Full tool reference -> dev.kiro/steering/tools-reference.md
 
-The golden path for "build me an app and put it online" is steering/deploy-workflow.md.
+The golden path for "build me an app and put it online" is dev.kiro/steering/deploy-workflow.md.
 
 ## Support & Legal
 
